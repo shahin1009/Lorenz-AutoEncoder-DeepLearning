@@ -4,7 +4,9 @@
 
 This Jupyter Notebook implements an autoencoder deep learning model for time series data. The model is trained on the Lorenz system, which is a set of three non-linear differential equations that describe the behavior of fluid flow in a two-dimensional plane. The Lorenz system is often used as a test case for time series prediction and chaos theory.
 
-The goal of this project is to train an autoencoder deep learning model to predict the behavior of the Lorenz system, using a small subset of the data as input. The model is trained using a variant of gradient descent optimization called "stochastic gradient descent" (SGD), which allows the model to learn from the data in an iterative fashion.
+The goal of this project is to train an autoencoder deep learning model to predict the behavior of the Lorenz system, using a small subset of the data as input. 
+
+
 Libraries Used
 
 The following libraries are used in this Jupyter Notebook:
@@ -21,10 +23,7 @@ The Lorenz system is simulated using the scipy library, and the simulated data i
 
 The autoencoder model consists of two main components: an encoder and a decoder. The encoder maps the input data to a lower-dimensional representation, which is then used by the decoder to reconstruct the original data. The encoding and decoding process is performed using dense neural networks, with multiple layers and activation functions.
 
-The model is trained using the mean squared error (MSE) loss function, which measures the difference between the predicted output and the true output. The optimization of the model parameters is performed using SGD, with a learning rate of 0.001 and a batch size of 128.
-Evaluation
 
-The performance of the autoencoder model is evaluated using the mean squared error (MSE) and the mean absolute error (MAE) between the predicted output and the true output. The evaluation is performed on the testing data, which was not used during the training process. The results show that the autoencoder model is able to accurately predict the behavior of the Lorenz system, with low error values for both the MSE and MAE metrics.
 Plotting the Results
 
 The results of the autoencoder model are visualized using the matplotlib library. The plots show the predicted output of the model and the true output, as well as the error between the two. The plots provide a visual representation of the model's performance, which is useful for understanding how well the model has learned the behavior of the Lorenz system.
