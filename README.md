@@ -28,7 +28,7 @@ Plotting the Results
 
 The results of the autoencoder model are visualized using the matplotlib library. The plots show the predicted output of the model and the true output, as well as the error between the two. The plots provide a visual representation of the model's performance, which is useful for understanding how well the model has learned the behavior of the Lorenz system.
 
-![Alt text](https://github.com/shahin1009/Lorenze-AutoEncoder-DeepLearning/blob/main/pics/pred.png "Prediction")
+![Alt text](https://github.com/shahin1009/Lorenze-AutoEncoder-DeepLearning/blob/main/pics/pred_new.png "Prediction")
 
 Usage
 
